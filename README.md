@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-  <img src="https://github.com/AlmeaLumanlan/7OOP-Laboratory-Task/blob/a27ea8685613da4e947f1383459831f459440bf5/myphoto.jpeg.jpg" width="190" height="180"/>
+  <img src="https://raw.githubusercontent.com/almealumanlan17/700P-PORTFOLIO/ce1acc80675a37103fa9c58f61293a4f57cd8a36/images/my%20image.jpg" width="190" height="180"/>
 </p>
 
 This **Object-Oriented Portfolio** showcases my programming journey, with 7OOP lab exercises marking key steps in mastering OOP. From organizing code with classes to solving real problems, these projects reflect my growth and dedication to clean, efficient software.
