@@ -4,18 +4,21 @@
 Use Appropriate Escape Sequence ( \n, \t \b \ ..etc) for the problem below  
   
 ### 💻 Source Code
-<div style="background-color:#1e1e1e; color:#dcdcdc; padding:15px; border-radius:8px; height:50px; overflow-y:auto;">
-<pre><code>print("Database Record") 
+<div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
+<pre style="margin:0;"><code>
+print("Database Record") 
 print("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\")
 print("Name:\t\tJohn Doe")
 print("Email:\t\tjohn.doe@example.com")
-print("University: \tABC University\n")
+print("University:\tABC University\n")
 </code></pre>
-  </div>  
+</div>
+
 
 ### 🧾 Sample Output
-<div style="background-color:#1e1e1e; color:#dcdcdc; padding:15px; border-radius:8px; height:50px; overflow-y:auto;">
-<pre><code>Database Record 
+<div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
+<pre style="margin:0;"><code>
+Database Record 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Name:     John Doe
 Email:    john.doe@example.com
@@ -27,8 +30,9 @@ University:     ABC University
 Using Placeholders for Email Details: Use appropriate type specifiers %s, %d, %f etc... for this task  
   
 ### 💻 Source Code
-<div style="background-color:#1e1e1e; color:#dcdcdc; padding:15px; border-radius:8px; height:175px; overflow-y:auto;">
-<pre><code>name = "John" 
+<div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
+<pre style="margin:0;"><code>
+name = "John" 
 subject = "Greeting"
 sender = "Jane"
 version = 1.2
@@ -70,8 +74,9 @@ code, location, age, company, website, phone, job_title, department))
   </div>  
 
 ### 🧾 Sample Output
-<div style="background-color:#1e1e1e; color:#dcdcdc; padding:15px; border-radius:8px; height:250px; overflow-y:auto;">
-<pre><code>Dear John, I hope this email find you well.
+<div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
+<pre style="margin:0;"><code>
+Dear John, I hope this email find you well.
 I wanted to reach out and say hello.
 I hope you are doing well and enjoring your day.
 It's been a while since we last spoke, and I wanted to cath up with you.
@@ -98,8 +103,9 @@ Department: Engineering
 Book Reservation; Accept User Input  
   
 ### 💻 Source Code
-<div style="background-color:#1e1e1e; color:#dcdcdc; padding:15px; border-radius:8px; height:175px; overflow-y:auto;">
-<pre><code>title = input("Enter the book title: ")
+<div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
+<pre style="margin:0;"><code>
+title = input("Enter the book title: ")
 author = input("Enter the author: ")
 year = int(input("Enter the year of publication: "))
 genre = input("Enter the genre: ")
@@ -117,14 +123,15 @@ print(f"Return Date: {return_date}")
   </div>  
   
 ### 🧾 Sample Output
-<div style="background-color:#1e1e1e; color:#dcdcdc; padding:15px; border-radius:8px; height:250px; overflow-y:auto;">
-<pre><code>Enter the book title: <span style="color:#00ffff;">1984</span>
-Enter the author: <span style="color:#00ffff;">Orwell</span>
-Enter the year of publication: <span style="color:#00ffff;">1949</span>
-Enter the genre: <span style="color:#00ffff;">Dystopian</span>
-Enter the library: <span style="color:#00ffff;">Central</span>
-Enter your member ID: <span style="color:#00ffff;">12345</span>
-Enter the return date: <span style="color:#00ffff;">2023-07-10</span>
+<div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
+<pre style="margin:0;"><code>
+Enter the book title: <span style="color:#0969da;">1984</span>
+Enter the author: <span style="color:#0969da;">Orwell</span>
+Enter the year of publication: <span style="color:#0969da;">1949</span>
+Enter the genre: <span style="color:#0969da;">Dystopian</span>
+Enter the library: <span style="color:#0969da;">Central</span>
+Enter your member ID: <span style="color:#0969da;">12345</span>
+Enter the return date: <span style="color:#0969da;">2023-07-10</span>
 You have successfully reserved the book "1984" by Orwell
 Year of Publication: 1949
 Genre: Dystopian
@@ -138,8 +145,9 @@ Return Date: 2023-07-10
 Day Identifier  
   
 ### 💻 Source Code
-<div style="background-color:#1e1e1e; color:#dcdcdc; padding:15px; border-radius:8px; height:175px; overflow-y:auto;">
-<pre><code>day = int(input("Enter Day: "))
+<div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
+<pre style="margin:0;"><code>
+day = int(input("Enter Day: "))
   
 if day == 1:
     print("Monday")
@@ -161,8 +169,9 @@ else:
   </div>  
   
 ### 🧾 Sample Output
-<div style="background-color:#1e1e1e; color:#dcdcdc; padding:15px; border-radius:8px; height:50px; overflow-y:auto;">
-<pre><code>Enter Day: <span style="color:#00ffff;">7</span>
+<div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
+<pre style="margin:0;"><code>
+Enter Day: <span style="color:#0969da;">7</span>
 Sunday
 </code></pre>
-  </div>  
+</div>
