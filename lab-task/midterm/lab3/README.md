@@ -1,7 +1,7 @@
 # MIDTERM LAB TASK 3
 ### List Collections
 
-**Problem 1. Using List Collection type.***  
+**Problem 1. Using List Collection type.**  
 Create a program that will allow the user to perform the following **functions**: (add, update, search, delete, display, and sort) items in a list.  
 
 Note: You are free to decide what data you will be storing in the list and name the list based
@@ -33,56 +33,62 @@ shown.
 ### 💻 Source Code
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
 <pre style="margin:0;"><code>def menu():
-  print("\n[ MENU OPTIONS ]")
-  print("1 - Add Items")
-  print("2 - Search for an Item")
-  print("3 - Remove an Item")
-  print("4 - View all items (Sorted A-Z)")
-  print("0 - Exit Program")
+    print("\n[ MENU OPTIONS ]")
+    print("1 - Add Items")
+    print("2 - Search for an Item")
+    print("3 - Remove an Item")
+    print("4 - View all items (Sorted A-Z)")
+    print("0 - Exit Program")
+
 
 def main():
-  fruits = []
+    fruits = []
 
-  while True:
-    menu()
-    choice = input("Pick one [0 to quit]: ")
+    while True:
+        menu()
+        choice = input("Pick one [0 to quit]: ")
 
-    if choice == "1":
-      while True:
-        item = input("Enter item to add (press x to stop): ")
-        if item.lower() == "x":
-          break
-        fruits.append(item)
-      print("Items successfully added!")
-    elif choice == "2":
-      search_item = input("Enter item to search: ")
-      count = fruits.count(search_item)
-      if count > 0:
-        print(f"'{search_item}' found {count} time(s) in the list.")
-      else:
-        print(f"'{search_item}' not found in the list.")
-    elif choice == "3":
-      remove_item = input("Enter item to remove: ")
-      if remove_item in fruits:
-        fruits.remove(remove_item)
-        print("Item found and deleted.")
-      else:
-        print("Item not found - deletion unsuccessful.")
-    elif choice == "4":
-      if len(fruits) == 0:
-        print("List is empty")
-      else:
-        print("Items in the list (sorted A-Z):")
-        for item in sorted(fruits):
-          print("-",item)
-    elif choice -- "0":
-      print("Exiting program... Goodbye!")\
-      break
-    else:
-      print("Invalid choice. Please try again.")
+        if choice == "1":
+            while True:
+                item = input("Enter item to add (press x to stop): ")
+                if item.lower() == "x":
+                    break
+                fruits.append(item)
+            print("Items successfully added!")
+
+        elif choice == "2":
+            search_item = input("Enter item to search: ")
+            count = fruits.count(search_item)
+            if count > 0:
+                print(f"'{search_item}' found {count} time(s) in the list.")
+            else:
+                print(f"'{search_item}' not found in the list.")
+        elif choice == "3":
+            remove_item = input("Enter item to remove: ")
+            if remove_item in fruits:
+                fruits.remove(remove_item)
+                print("Item found and deleted.")
+            else:
+                print("Item not found - deletion unsuccessful.")
+
+        elif choice == "4":
+            if len(fruits) == 0:
+                print("List is empty")
+            else:
+                print("Items in the list (sorted A-Z):")
+                for item in sorted(fruits):
+                    print("-", item)
+
+        elif choice == "0":
+            print("Exiting program... Goodbye!")
+            break
+
+        else:
+            print("Invalid choice. Please try again.")
+
 
 if __name__ == "__main__":
-  main()
+    main()
 </code></pre>
   </div>  
 
