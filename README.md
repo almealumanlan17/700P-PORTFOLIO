@@ -36,7 +36,7 @@ Hello! I’m **Almea Lumanlan**, I like to think of myself as easygoing and curi
 
 ### 🧪 MIDTERM  
 
-Coming Soon.🔥 
+**📂:** LAB TASK 1 - [PYTHON FUNDAMENTALS](https://noeljustine.github.io/7OOP-PORTFOLIO/MIDTERM/Lab1/)   
 
 ---
 
