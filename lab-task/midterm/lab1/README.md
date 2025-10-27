@@ -5,23 +5,21 @@ Use Appropriate Escape Sequence ( \n, \t \b \ ..etc) for the problem below
   
 ### 💻 Source Code
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
-<pre style="margin:0;"><code>
-print("Database Record") 
+<pre style="margin:0;"><code>print("Database Record") 
 print("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\")
 print("Name:\t\tJohn Doe")
 print("Email:\t\tjohn.doe@example.com")
-print("University:\tABC University\n")
+print("University: \tABC University\n")
 </code></pre>
 </div>
 
 
 ### 🧾 Sample Output
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
-<pre style="margin:0;"><code>
-Database Record 
+<pre style="margin:0;"><code>Database Record
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-Name:     John Doe
-Email:    john.doe@example.com
+Name:           John Doe
+Email:          john.doe@example.com
 University:     ABC University
 </code></pre>
   </div>  
@@ -31,8 +29,7 @@ Using Placeholders for Email Details: Use appropriate type specifiers %s, %d, %f
   
 ### 💻 Source Code
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
-<pre style="margin:0;"><code>
-name = "John" 
+<pre style="margin:0;"><code>name = "John" 
 subject = "Greeting"
 sender = "Jane"
 version = 1.2
@@ -49,13 +46,13 @@ department = "Engineering"
 
 email_template = """Dear %s, I hope this email find you well.
 I wanted to reach out and say hello.
-I hope you are doing well and enjoring your day.
-It's been a while since we last spoke, and I wanted to cath up with you.
+I hope you are doing well and enjoying your day.
+It's been a while since we last spoke, and I wanted to catch up with you.
 Let's plan to meet up soon and have a great time together!
 Subject: %s
 Sender: %s
 Version: %.1f
-Discount: %.2f%
+Discount: %.2f%%
 Status: %s
 Code: %s
 Location: %s
@@ -69,17 +66,15 @@ Department: %s
 
 print(email_template % (name, subject, sender, version, discount, status, 
 code, location, age, company, website, phone, job_title, department))
-
 </code></pre>
   </div>  
 
 ### 🧾 Sample Output
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
-<pre style="margin:0;"><code>
-Dear John, I hope this email find you well.
+<pre style="margin:0;"><code>Dear John, I hope this email find you well.
 I wanted to reach out and say hello.
-I hope you are doing well and enjoring your day.
-It's been a while since we last spoke, and I wanted to cath up with you.
+I hope you are doing well and enjoying your day.
+It's been a while since we last spoke, and I wanted to catch up with you.
 Let's plan to meet up soon and have a great time together!
 Subject: Greeting
 Sender: Jane
@@ -97,15 +92,12 @@ Department: Engineering
 </code></pre>
   </div>  
   
-
-    
 ## PROBLEM 3.
 Book Reservation; Accept User Input  
   
 ### 💻 Source Code
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
-<pre style="margin:0;"><code>
-title = input("Enter the book title: ")
+<pre style="margin:0;"><code>title = input("Enter the book title: ")
 author = input("Enter the author: ")
 year = int(input("Enter the year of publication: "))
 genre = input("Enter the genre: ")
@@ -146,8 +138,7 @@ Day Identifier
   
 ### 💻 Source Code
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
-<pre style="margin:0;"><code>
-day = int(input("Enter Day: "))
+<pre style="margin:0;"><code>day = int(input("Enter Day: "))
   
 if day == 1:
     print("Monday")
