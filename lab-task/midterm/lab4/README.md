@@ -14,9 +14,9 @@ pretzel   : $3.50
 soda      : $3.00
 lemonade  : $4.25
 ------------------------
-Select and item (q to quit): <span style="color:#00ffff;">pizza</span>
-Select and item (q to quit): <span style="color:#00ffff;">soda</span>
-Select and item (q to quit): <span style="color:#00ffff;">q</span>
+Select and item (q to quit): <span style="color:#0969da;">pizza</span>
+Select and item (q to quit): <span style="color:#0969da;">soda</span>
+Select and item (q to quit): <span style="color:#0969da;">q</span>
 ------ YOUR ORDER ------
 pizza soda
 Total is: $6.00
@@ -88,10 +88,10 @@ shawamah  : $4.25
 sahlahd   : $5.00
 ike kleam : $2.75
 -------------------------
-Select an item (q to quit): pissah
-Select an item (q to quit): coffey
-Select an item (q to quit): sowdah
-Select an item (q to quit): q
+Select an item (q to quit): <span style="color:#0969da;">pissah</span>
+Select an item (q to quit): <span style="color:#0969da;">coffey</span>
+Select an item (q to quit): <span style="color:#0969da;">sowdah</span>
+Select an item (q to quit): <span style="color:#0969da;">q</span>
 
 ------ YOUR ORDER ------
 pissah coffey sowdah 
