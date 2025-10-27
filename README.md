@@ -36,7 +36,7 @@ Hello! I’m **Almea Lumanlan**, I like to think of myself as easygoing and curi
 
 ### 🧪 MIDTERM  
 
-**📂:** LAB TASK 1 - [PYTHON FUNDAMENTALS](https://noeljustine.github.io/7OOP-PORTFOLIO/MIDTERM/Lab1/)   
+**📂:** LAB TASK 1 - [PYTHON FUNDAMENTALS](https://almealumanlan17.github.io/700P-PORTFOLIO/lab-task/midterm/lab1)   
 
 ---
 
