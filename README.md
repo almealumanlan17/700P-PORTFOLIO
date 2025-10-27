@@ -37,6 +37,10 @@ Hello! I’m **Almea Lumanlan**, I like to think of myself as easygoing and curi
 ### 🧪 MIDTERM  
 
 **📂:** LAB TASK 1 - [PYTHON FUNDAMENTALS](https://almealumanlan17.github.io/700P-PORTFOLIO/lab-task/midterm/lab1)   
+**📂:** LAB TASK 2 - [LOOPS AND FUNCTIONS](https://almealumanlan17.github.io/700P-PORTFOLIO/lab-task/midterm/lab2)  
+**📂:** LAB TASK 3 - [LIST COLLECTION](https://almealumanlan17.github.io/700P-PORTFOLIO/lab-task/midterm/lab3)  
+**📂:** LAB TASK 4 - [DICTIONARIES](https://almealumanlan17.github.io/700P-PORTFOLIO/lab-task/midterm/lab4)  
+**📂:** LAB TASK 5 - [CLASS AND OBJECTS](https://almealumanlan17.github.io/700P-PORTFOLIO/lab-task/midterm/lab5)  
 
 ---
 
