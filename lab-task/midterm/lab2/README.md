@@ -1,6 +1,9 @@
 # MIDTERM LAB TASK 2
 ### Using Functions
 
+## Problem 1.
+Create an n x n Multiplication table using **Nested FOR Loop**. The user must enter the number of rows and columns that will be displayed in the Table.
+
 ### 💻 Source Code
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
 <pre style="margin:0;"><code>rows = int(input("Enter rows: "))  
