@@ -116,8 +116,7 @@ print(f"Return Date: {return_date}")
   
 ### 🧾 Sample Output
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
-<pre style="margin:0;"><code>
-Enter the book title: <span style="color:#0969da;">1984</span>
+<pre style="margin:0;"><code>Enter the book title: <span style="color:#0969da;">1984</span>
 Enter the author: <span style="color:#0969da;">Orwell</span>
 Enter the year of publication: <span style="color:#0969da;">1949</span>
 Enter the genre: <span style="color:#0969da;">Dystopian</span>
@@ -161,8 +160,7 @@ else:
   
 ### 🧾 Sample Output
 <div style="background-color:#f6f8fa; color:#24292e; padding:15px; border-radius:8px; border:1px solid #d0d7de; overflow-x:auto;">
-<pre style="margin:0;"><code>
-Enter Day: <span style="color:#0969da;">7</span>
+<pre style="margin:0;"><code>Enter Day: <span style="color:#0969da;">7</span>
 Sunday
 </code></pre>
 </div>
